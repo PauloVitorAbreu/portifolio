@@ -1,4 +1,4 @@
-document.documentElement.classList.add("js");
+﻿document.documentElement.classList.add("js");
 
 const scrambleWord = document.querySelector("[data-scramble-word]");
 const hero = document.querySelector(".hero");
@@ -11,115 +11,115 @@ const reduceMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 const projectCaseDetails = {
   amadora: {
     number: "01",
-    eyebrow: "Case imobiliário · Amadora",
-    title: "Amadora: estratégia local",
-    summary: "Landing page com tese local: preço, narrativa e negociação preparados antes do anúncio para atrair o comprador certo.",
-    time: "Sprint estimado: 4–6 dias úteis",
-    source: "Página pública + vídeo local",
-    url: "https://alexandreverissimo.pt/amadora/",
-    poster: "assets/previews/amadora.webp",
-    video: "assets/previews/amadora.mp4",
+    eyebrow: "Case imobiliÃ¡rio Â· Amadora",
+    title: "Amadora: estratÃ©gia local",
+    summary: "Landing page com tese local: preÃ§o, narrativa e negociaÃ§Ã£o preparados antes do anÃºncio para atrair o comprador certo.",
+    time: "Sprint estimado: 4â€“6 dias Ãºteis",
+    source: "PÃ¡gina pÃºblica + vÃ­deo local",
+    url: "",
+    poster: "/assets/previews/amadora.webp",
+    video: "/assets/previews/amadora.mp4",
     thinking: [
-      "Arquitetura por território: mercado local, método, caso real e diagnóstico antes do contacto.",
-      "Prova objetiva com leitura de Amadora, resultado de 48h até proposta aceite e CTA de baixo atrito.",
+      "Arquitetura por territÃ³rio: mercado local, mÃ©todo, caso real e diagnÃ³stico antes do contacto.",
+      "Prova objetiva com leitura de Amadora, resultado de 48h atÃ© proposta aceite e CTA de baixo atrito.",
     ],
-    tags: ["LP imobiliária", "SEO local", "Proposta de valor", "Copy de conversão", "Arquitetura de informação", "Design responsivo", "Core Web Vitals", "CTA estratégico"],
+    tags: ["LP imobiliÃ¡ria", "SEO local", "Proposta de valor", "Copy de conversÃ£o", "Arquitetura de informaÃ§Ã£o", "Design responsivo", "Core Web Vitals", "CTA estratÃ©gico"],
   },
   alexandre: {
     number: "02",
-    eyebrow: "Consultoria imobiliária estratégica",
+    eyebrow: "Consultoria imobiliÃ¡ria estratÃ©gica",
     title: "Alexandre: valor defendido",
-    summary: "Página principal para reposicionar corretagem como consultoria estratégica: diagnóstico, narrativa e defesa de margem.",
-    time: "Sprint estimado: 5–7 dias úteis",
-    source: "Página pública + preview local",
-    url: "https://alexandreverissimo.pt/",
-    poster: "assets/previews/alexandre.webp",
-    video: "assets/previews/alexandre.mp4",
+    summary: "PÃ¡gina principal para reposicionar corretagem como consultoria estratÃ©gica: diagnÃ³stico, narrativa e defesa de margem.",
+    time: "Sprint estimado: 5â€“7 dias Ãºteis",
+    source: "PÃ¡gina pÃºblica + preview local",
+    url: "",
+    poster: "/assets/previews/alexandre.webp",
+    video: "/assets/previews/alexandre.mp4",
     thinking: [
-      "Autoridade por método: diagnóstico real, posicionamento, exposição controlada e defesa de valor.",
+      "Autoridade por mÃ©todo: diagnÃ³stico real, posicionamento, exposiÃ§Ã£o controlada e defesa de valor.",
       "Hierarquia editorial conectando cases, promessa central e CTA sem parecer institucional.",
     ],
-    tags: ["Brand positioning", "UX writing", "VSL estratégica", "Funil de conversão", "SEO on-page", "Design editorial", "Performance", "Confiança comercial"],
+    tags: ["Brand positioning", "UX writing", "VSL estratÃ©gica", "Funil de conversÃ£o", "SEO on-page", "Design editorial", "Performance", "ConfianÃ§a comercial"],
   },
   nemesius: {
     number: "03",
-    eyebrow: "Imóvel premium · Aroeira",
-    title: "Nemesius’ 28: potencial claro",
-    summary: "Página para moradia T3 + T1 na Aroeira, vendendo autonomia, três pisos e potencial sem virar ficha técnica.",
-    time: "Sprint estimado: 3–5 dias úteis",
-    source: "Página pública + vídeo local",
-    url: "https://alexandreverissimo.pt/nemesius28/",
-    poster: "assets/previews/nemesius.webp",
-    video: "assets/previews/nemesius.mp4",
+    eyebrow: "ImÃ³vel premium Â· Aroeira",
+    title: "Nemesiusâ€™ 28: potencial claro",
+    summary: "PÃ¡gina para moradia T3 + T1 na Aroeira, vendendo autonomia, trÃªs pisos e potencial sem virar ficha tÃ©cnica.",
+    time: "Sprint estimado: 3â€“5 dias Ãºteis",
+    source: "PÃ¡gina pÃºblica + vÃ­deo local",
+    url: "",
+    poster: "/assets/previews/nemesius.webp",
+    video: "/assets/previews/nemesius.mp4",
     thinking: [
-      "Atributos objetivos — T3 + T1, três pisos e exterior privado — convertidos em argumento de decisão.",
-      "Leitura guiada por potencial, localização e autonomia, com CTA direto para visita privada.",
+      "Atributos objetivos â€” T3 + T1, trÃªs pisos e exterior privado â€” convertidos em argumento de decisÃ£o.",
+      "Leitura guiada por potencial, localizaÃ§Ã£o e autonomia, com CTA direto para visita privada.",
     ],
-    tags: ["Página de imóvel", "Narrativa de valor", "Qualificação de lead", "UI premium", "Mobile-first", "SEO técnico", "Galeria orientada", "CTA de visita"],
+    tags: ["PÃ¡gina de imÃ³vel", "Narrativa de valor", "QualificaÃ§Ã£o de lead", "UI premium", "Mobile-first", "SEO tÃ©cnico", "Galeria orientada", "CTA de visita"],
   },
   ferreiras: {
     number: "04",
-    eyebrow: "Moradia familiar · Aroeira",
-    title: "Ferreiras’ 24: vida familiar",
+    eyebrow: "Moradia familiar Â· Aroeira",
+    title: "Ferreirasâ€™ 24: vida familiar",
     summary: "Landing page para moradia T5 na Aroeira, transformando piscina, garagem e praia/golf em narrativa familiar.",
-    time: "Sprint estimado: 3–5 dias úteis",
-    source: "Página pública + vídeo local",
-    url: "https://alexandreverissimo.pt/ferreiras24/",
-    poster: "assets/previews/ferreiras.webp",
-    video: "assets/previews/ferreiras.mp4",
+    time: "Sprint estimado: 3â€“5 dias Ãºteis",
+    source: "PÃ¡gina pÃºblica + vÃ­deo local",
+    url: "",
+    poster: "/assets/previews/ferreiras.webp",
+    video: "/assets/previews/ferreiras.mp4",
     thinking: [
-      "Argumentos organizados por benefício percebido: família, exterior privado, estacionamento e localização.",
-      "Copy para reduzir comparação por preço e acelerar a visita mental antes da visita física.",
+      "Argumentos organizados por benefÃ­cio percebido: famÃ­lia, exterior privado, estacionamento e localizaÃ§Ã£o.",
+      "Copy para reduzir comparaÃ§Ã£o por preÃ§o e acelerar a visita mental antes da visita fÃ­sica.",
     ],
-    tags: ["Landing page T5", "Storytelling imobiliário", "Benefícios visuais", "UX de navegação", "Design responsivo", "SEO on-page", "CTA privado", "Escaneabilidade"],
+    tags: ["Landing page T5", "Storytelling imobiliÃ¡rio", "BenefÃ­cios visuais", "UX de navegaÃ§Ã£o", "Design responsivo", "SEO on-page", "CTA privado", "Escaneabilidade"],
   },
   sergius: {
     number: "05",
-    eyebrow: "Apartamento T2 · Reboleira",
+    eyebrow: "Apartamento T2 Â· Reboleira",
     title: "Sergius V: rotina pronta",
-    summary: "Página para T2 de 70 m² na Reboleira, usando área, elevadores e ligação a Lisboa como argumento de rotina.",
-    time: "Sprint estimado: 3–5 dias úteis",
-    source: "Página pública + vídeo local",
-    url: "https://alexandreverissimo.pt/sergiusv/",
-    poster: "assets/previews/sergius.webp",
-    video: "assets/previews/sergius.mp4",
+    summary: "PÃ¡gina para T2 de 70 mÂ² na Reboleira, usando Ã¡rea, elevadores e ligaÃ§Ã£o a Lisboa como argumento de rotina.",
+    time: "Sprint estimado: 3â€“5 dias Ãºteis",
+    source: "PÃ¡gina pÃºblica + vÃ­deo local",
+    url: "",
+    poster: "/assets/previews/sergius.webp",
+    video: "/assets/previews/sergius.mp4",
     thinking: [
-      "Acessibilidade urbana apresentada como prova de rotina: metro, comboio, serviços e ligação a Lisboa.",
-      "Atributos técnicos — T2, 70 m², 2.º andar e dois elevadores — traduzidos em benefício de uso.",
+      "Acessibilidade urbana apresentada como prova de rotina: metro, comboio, serviÃ§os e ligaÃ§Ã£o a Lisboa.",
+      "Atributos tÃ©cnicos â€” T2, 70 mÂ², 2.Âº andar e dois elevadores â€” traduzidos em benefÃ­cio de uso.",
     ],
-    tags: ["LP imobiliária", "Argumento urbano", "UX writing", "SEO local", "Hierarquia visual", "Mobile-first", "Acessibilidade WCAG", "CTA de visita"],
+    tags: ["LP imobiliÃ¡ria", "Argumento urbano", "UX writing", "SEO local", "Hierarquia visual", "Mobile-first", "Acessibilidade WCAG", "CTA de visita"],
   },
   navalbrands: {
     number: "06",
-    eyebrow: "Engenharia web · Alto ticket",
+    eyebrow: "Engenharia web Â· Alto ticket",
     title: "Naval Brands: performance integrada",
-    summary: "Site comercial para comunicar Branding, Engenharia Web e Tráfego como ecossistema integrado de alto valor.",
-    time: "Sprint estimado: 7–10 dias úteis",
-    source: "Site público + preview local",
-    url: "https://navalbrands.com/",
-    poster: "assets/previews/navalbrands.webp",
-    video: "assets/previews/navalbrands.mp4",
+    summary: "Site comercial para comunicar Branding, Engenharia Web e TrÃ¡fego como ecossistema integrado de alto valor.",
+    time: "Sprint estimado: 7â€“10 dias Ãºteis",
+    source: "Site pÃºblico + preview local",
+    url: "",
+    poster: "/assets/previews/navalbrands.webp",
+    video: "/assets/previews/navalbrands.mp4",
     thinking: [
       "Posicionamento high-ticket com promessa forte e arquitetura para explicar uma oferta composta.",
-      "Integração visual entre marca, tecnologia e tráfego com motion, contraste e clareza de CTA.",
+      "IntegraÃ§Ã£o visual entre marca, tecnologia e trÃ¡fego com motion, contraste e clareza de CTA.",
     ],
-    tags: ["Engenharia web", "Branding", "Performance marketing", "High-ticket", "Design system", "SEO técnico", "Core Web Vitals", "Motion UI"],
+    tags: ["Engenharia web", "Branding", "Performance marketing", "High-ticket", "Design system", "SEO tÃ©cnico", "Core Web Vitals", "Motion UI"],
   },
   ml: {
     number: "07",
-    eyebrow: "Landing page · Brindes premium",
+    eyebrow: "Landing page Â· Brindes premium",
     title: "ML Sistemas: brinde premium",
-    summary: "Preview de LP para brindes personalizados premium, com produto em evidência, navegação objetiva e CTA comercial.",
-    time: "Sprint estimado: 3–5 dias úteis",
-    source: "Preview local disponível",
+    summary: "Preview de LP para brindes personalizados premium, com produto em evidÃªncia, navegaÃ§Ã£o objetiva e CTA comercial.",
+    time: "Sprint estimado: 3â€“5 dias Ãºteis",
+    source: "Preview local disponÃ­vel",
     url: "",
-    poster: "assets/previews/ml.webp",
-    video: "assets/previews/ml.mp4",
+    poster: "/assets/previews/ml.webp",
+    video: "/assets/previews/ml.mp4",
     thinking: [
-      "Oferta acima da dobra: qualidade, personalização e serviços de impressão em leitura imediata.",
-      "Produto aplicado, serviços, depoimentos e FAQ para reduzir objeções antes do contato.",
+      "Oferta acima da dobra: qualidade, personalizaÃ§Ã£o e serviÃ§os de impressÃ£o em leitura imediata.",
+      "Produto aplicado, serviÃ§os, depoimentos e FAQ para reduzir objeÃ§Ãµes antes do contato.",
     ],
-    tags: ["Landing page", "Hero de impacto", "CTA comercial", "Catálogo de serviços", "FAQ estratégico", "Design responsivo", "UX writing", "Identidade visual"],
+    tags: ["Landing page", "Hero de impacto", "CTA comercial", "CatÃ¡logo de serviÃ§os", "FAQ estratÃ©gico", "Design responsivo", "UX writing", "Identidade visual"],
   },
 };
 
@@ -752,13 +752,14 @@ const setupPortfolio = () => {
 
     const icon = document.createElement("span");
     icon.setAttribute("aria-hidden", "true");
-    icon.textContent = "↗";
+    icon.textContent = "â†—";
     detailVisit.replaceChildren(
-      document.createTextNode(caseData.url ? "Visitar página" : "Página pública indisponível"),
+      document.createTextNode(caseData.url ? "Visitar pÃ¡gina" : "PÃ¡gina pÃºblica indisponÃ­vel"),
       icon,
     );
 
     if (caseData.url) {
+      detailVisit.hidden = false;
       detailVisit.href = caseData.url;
       detailVisit.target = "_blank";
       detailVisit.rel = "noopener noreferrer";
@@ -768,6 +769,7 @@ const setupPortfolio = () => {
       return;
     }
 
+    detailVisit.hidden = true;
     detailVisit.removeAttribute("href");
     detailVisit.removeAttribute("target");
     detailVisit.setAttribute("aria-disabled", "true");
@@ -1239,8 +1241,8 @@ const setupMethod = () => {
   }
 
   const labels = [
-    "01 / Estratégia",
-    "02 / Experiência",
+    "01 / EstratÃ©gia",
+    "02 / ExperiÃªncia",
     "03 / Identidade",
     "04 / Engenharia",
   ];
@@ -1372,3 +1374,4 @@ const setupFooterSeo = () => {
 };
 
 setupFooterSeo();
+
